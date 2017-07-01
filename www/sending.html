@@ -10,8 +10,9 @@
   <script src="components/loader.js"></script>
   <style>
     .fuwafuwa {
-  -webkit-animation: fuwafuwa 5s linear 0s infinite;
+  -webkit-animation: fuwafuwa 8s linear 0s infinite;
   animation: fuwafuwa 5s linear 0s infinite;
+  animation-timing-function: ease-in-out;
     }
     @-webkit-keyframes fuwafuwa {
     0%    { transform:  translate(-30px, 0px);   }
@@ -34,7 +35,7 @@
   </style>
   <script>
     // 一定時間経過後に指定ページにジャンプする
-    mnt = 4.9; // 何秒後に移動するか？
+    mnt = 7.9; // 何秒後に移動するか？
     url = "./home.html"; // 移動するアドレス
     function jumpPage() {
       location.href = url;

@@ -17,5 +17,17 @@
         "cordova-plugin-splashscreen@3.2.2",
         "ncmb-push-monaca-plugin@2.0.2",
         "cordova-custom-config@2.0.3"
-    ]
+    ],
+    "title-ja": "",
+    "title-en": "Watage App",
+    "description-ja": "",
+    "description-en": "",
+    "category": "User Template",
+    "platform": [
+        "android",
+        "ios",
+        "winrt",
+        "chrome"
+    ],
+    "name": "generated-1495716800-58775a75803451652f1aaac1"
 }

@@ -10,26 +10,27 @@
   <script src="components/loader.js"></script>
   <style>
     .fuwafuwa {
-      animation: updown 5s linear infinite alternate none running;
+      animation: updown 8s linear infinite alternate none running;
+      animation-timing-function: ease-in-out;
     }
     
     @keyframes updown {
       0%   {transform: translate(0, 0px);}
-      10%  {transform: translate(0, 40px);}
-      20%  {transform: translate(0, 80px);}
+      10%  {transform: translate(0, 70px);}
+      20%  {transform: translate(0, 50px);}
       30%  {transform: translate(0, 120px);}
-      40%  {transform: translate(0, 160px);}
-      50%  {transform: translate(0, 200px);}
-      60%  {transform: translate(0, 240px);}
-      70%  {transform: translate(0, 280px);}
-      80%  {transform: translate(0, 320px);}
-      90%  {transform: translate(0, 360px);}
-      100% {transform: translate(0, 400px);}
+      40%  {transform: translate(0, 100px);}
+      50%  {transform: translate(0, 170px);}
+      60%  {transform: translate(0, 150px);}
+      70%  {transform: translate(0, 220px);}
+      80%  {transform: translate(0, 200px);}
+      90%  {transform: translate(0, 270px);}
+      100% {transform: translate(0, 250px);}
     }
   </style>
     <script>
     // 一定時間経過後に指定ページにジャンプする
-    mnt = 3.5; // 何秒後に移動するか？
+    mnt = 6; // 何秒後に移動するか？
     url = "./show.html"; // 移動するアドレス
     function jumpPage() {
       location.href = url;
